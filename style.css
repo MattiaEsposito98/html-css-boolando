@@ -1,0 +1,32 @@
+/* RESET */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: currentColor;
+	text-decoration: none;
+}
+/* Navbar */
+.navbar{
+	height: 100px;
+	background-color: orange;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+.main-menu{
+	display: flex;
+	gap: 30px;
+	font-size: 18px;
+	justify-content: space-around;
+}
+
