@@ -30,3 +30,35 @@ a {
 	justify-content: space-around;
 }
 
+/* Creazione del contenuto principale */
+.section-main{
+  height: 750px;
+	border: 5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;	
+}
+
+.section-main .container {
+	width: 80%;
+  height: 700px;
+  border: 5px solid red;
+  
+	
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+
+  .row .col {
+    width: calc(100% /3);
+    height: calc(100% /2);
+    background-color: indianred;
+    border: 1px dashed black;
+  }
+
+  
+  
