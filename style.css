@@ -13,7 +13,7 @@ a {
   color: currentColor;
   text-decoration: none;
 }
-
+ 
 
 /* Navbar */
 .navbar {
@@ -34,7 +34,6 @@ a {
 
 /* Creazione del contenuto principale */
 .section-main {
-  height: 780px;
   border: 5px solid black;
   display: flex;
   justify-content: center;
@@ -43,22 +42,27 @@ a {
 
 .section-main .container {
   width: 80%;
-  height: 700px;
-  border: 5px solid red;
+  
+  padding: 20px 0;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
-  height: 100%;
+  
 }
 
 .row .col {
   width: calc(100% /3);
-  height: calc(100% /2);
-  border: 1px dashed black;
+  height: 300px;
+  
+  
 }
 
+img{
+  width: 33%;
+  
+}
 
 /* Footer */
 .footer{
